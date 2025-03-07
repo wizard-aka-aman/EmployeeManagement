@@ -17,11 +17,17 @@ Role-Based Access Control (RBAC)
 Claims and Roles for fine-grained access control
 
 
+
+
+
 Employee Management
 
 View Employee Details
 
 Manage Employee Information
+
+
+
 
 
 
@@ -34,9 +40,15 @@ Create, Edit, and Delete Roles
 Assign roles to users and manage permissions
 
 
+
+
+
 Error Handling & UI
 
 Custom Error View Page for handling application errors gracefully
+
+
+
 
 
 Technologies Used
@@ -46,6 +58,9 @@ ASP.NET Core (for backend development)
 MVC Architecture (for structured code and separation of concerns)
 
 Dependency Injection (for managing service lifetimes and dependencies)
+
+
+
 
 
 Conclusion
