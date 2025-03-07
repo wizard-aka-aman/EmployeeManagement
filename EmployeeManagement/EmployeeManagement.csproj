@@ -5,8 +5,7 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <StartupObject></StartupObject>
-    <PackageProjectUrl>https://localhost:44357/</PackageProjectUrl>
-    <UserSecretsId>6910c5a0-6279-435e-8373-ed03ee1ae8e7</UserSecretsId>
+    <PackageProjectUrl>https://localhost:44357/</PackageProjectUrl> 
   </PropertyGroup>
 
   <ItemGroup>
