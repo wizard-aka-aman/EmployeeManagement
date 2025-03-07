@@ -1,15 +1,24 @@
 Employee Management System - Project Description
+
 Overview
+
 The Employee Management System is a web-based application developed using ASP.NET Core with MVC architecture and Dependency Injection to manage employees efficiently. This system provides secure user authentication, role management, and employee data handling with a structured and scalable approach.
 
 Key Features
+
 Authentication & Authorization
 
+
 User Login and Registration
+
 Secure Password Management (Change Password, Forgot Password, Reset Password)
+
 Role-Based Access Control (RBAC)
+
 Claims and Roles for fine-grained access control
+
 Employee Management
+
 
 View Employee Details
 Manage Employee Information
