@@ -49,12 +49,12 @@ builder.Services.ConfigureApplicationCookie(options =>
 //builder.Services.AddMvc();
 builder.Services.AddControllersWithViews();
 
-builder.Services.AddAuthentication()
-    .AddGoogle(options =>
-        {
-            options.ClientId = "559611797951-vn5qcaja2732cc91ais5p89ii6slvvd7.apps.googleusercontent.com";
-            options.ClientSecret = "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";
-        })
+//builder.Services.AddAuthentication()
+//    .AddGoogle(options =>
+//        {
+//            options.ClientId = "559611797951-vn5qcaja2732cc91ais5p89ii6slvvd7.apps.googleusercontent.com";
+//            options.ClientSecret = "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";
+//        })
      //.AddFacebook(options =>
      //{
      //    options.AppId = "2869287079898820";
