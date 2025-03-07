@@ -1,0 +1,28 @@
+﻿@model IEnumerable<Employee>
+
+@{
+    ViewBag.Title = "Employee List";
+}
+<h1>@ViewBag.Confirm</h1>
+<div class=" row  d-flex justify-content-center  ">
+    @foreach (var employee in Model)
+    {
+        var photoPath = employee.PhotoPath != null ? "~/images/" + (employee.PhotoPath ?? "logo.png") : "~/images/logo.png";
+
+            <div class="col-3 border-1 border p-2 mx-2">
+                <div class=" border-1 border d-flex justify-content-center align-items-center">
+                    <h3>@employee.Name</h3>
+                </div>
+                <div class=" d-flex justify-content-center">
+
+                <img class="card-img-top imageThumbnail" src="@photoPath" style="width:150px; height:150px;" asp-append-version="true" />
+                </div>
+                <div class="   border-1 border text-center">
+                    <a asp-controller="home" asp-action="details" asp-route-id="@employee.EncryptedId" class="btn btn-primary m-1">View</a>
+                <a  asp-controller="home" asp-action="edit" asp-route-id="@employee.Id" class="btn btn-primary m-1">Edit</a>
+                <a href="#" class="btn btn-danger m-1">Delete</a>
+                </div>
+            </div> 
+    }
+</div>
+ 
